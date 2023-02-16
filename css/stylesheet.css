@@ -1,0 +1,115 @@
+body{
+ line-height: 1.5;  
+ color: #898fa1;
+ font-size: 15px;
+ font-family: 'lato',sans-serif;
+}
+h1, h2, h3, h4, h5{
+    text-transform: uppercase;
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text{
+    font-size: 16px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar{
+    border-bottom: 1px solid rgba(0, 0,0, 0.12);
+}
+.logo-text{
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #000000 !important ;
+    font-weight: bold;
+    font-family: monospace;
+}
+.navbar .nav-link{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    justify-items: center;
+    color: #000000 !important ;
+    margin: auto;
+}
+.navbar .nav-link:hover{
+    font-size: 20;
+}
+.navbar-nav .nav-link.active{
+    color: #f2f2f2dc;
+}
+img{
+    width:100%;
+}
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#home{
+
+    background: linear-gradient(rgba(17, 36, 120, 0.432), rgba(73, 29, 155, 0.397)), url(../images/bgpic1.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position:center ;
+    background-attachment: fixed;
+}
+#home h5{
+    padding-top: 150px;
+    margin: auto;
+    font-weight: bold;
+}
+#home p{
+    max-width: 550px;
+    margin: auto;
+}
+
+.btn{
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    max-width: 450px;
+}
+ .btn-brand{
+    background-color: #221f20;
+    color: #fff;
+}
+#contactus img{
+    border-radius: 3px;
+}
+form .form-control{
+    border-radius: 2px;
+}
+form .form-control:focus{
+    box-shadow: none;
+    border-color: rgb(15, 15, 15);
+}
+form .btn{
+    border-radius: 2px;
+}
+footer{
+    padding-top: 50px;
+    background-color: #f2f2f2;
+}
+footer .social-icons a,
+footer .footer-links a{
+    color: #898fa1;
+}
+footer .social-icons a{
+    font-size: 24px;
+}
+footer .footer-links a{
+    display: block;
+    font-weight: 400;
+    
+}
+footer .social-icons a:hover,
+footer .footer-links a:hover{
+    color: rgb(48, 46, 46);
+
+}
+
+footer .footer-buttom{
+    border-top: 1px solid #898fa1de;
+}
